@@ -1,9 +1,10 @@
 import React from 'react';
+import '../Styles/Cards.css';
 
 const userOutput = (props) => {
 
   return (
-    <div>
+    <div className="Card-App">
       <p>Username: {props.userName}</p>
       <p>I hope i will overwritten!</p>
     </div>
